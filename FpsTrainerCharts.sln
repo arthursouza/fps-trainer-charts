@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FpsTrainerCharts", "FpsTrainerCharts.csproj", "{04076827-F9B8-4053-91BC-1864685570C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04076827-F9B8-4053-91BC-1864685570C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04076827-F9B8-4053-91BC-1864685570C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04076827-F9B8-4053-91BC-1864685570C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04076827-F9B8-4053-91BC-1864685570C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {392E8168-D410-4485-9ECA-15FFE617F9F5}
+	EndGlobalSection
+EndGlobal
