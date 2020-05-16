@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FpsTrainerCharts", "FpsTrainerCharts.csproj", "{04076827-F9B8-4053-91BC-1864685570C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FpsTrainerCharts", "src\Client\FpsTrainerCharts.csproj", "{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04076827-F9B8-4053-91BC-1864685570C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04076827-F9B8-4053-91BC-1864685570C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04076827-F9B8-4053-91BC-1864685570C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04076827-F9B8-4053-91BC-1864685570C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
