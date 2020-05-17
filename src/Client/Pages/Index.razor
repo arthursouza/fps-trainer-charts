@@ -17,7 +17,7 @@
     <BSContainer>
         <BSRow>
             <BSCol MD="4" MDOffset="4">
-                <BSBasicInput InputType="InputType.Select" Value="string.Empty" @onchange="Refresh">
+                <BSBasicInput T="string" InputType="InputType.Select" ValueChanged="@((string s) => Refresh(s))">
                     @foreach (var challenge in challenges)
                     {
                         if (challenge == currentChallenge)
@@ -132,10 +132,11 @@
             }
         }
 
-        private async Task Refresh(ChangeEventArgs e)
+        private async Task Refresh(string s)
         {
-            currentChallenge = (string)e.Value;
-
+            Console.WriteLine("REFRESH");
+            currentChallenge = s;
+            Console.WriteLine(s);
             if (currentMode == DataMode.Avg)
             {
                 await Avg();
@@ -144,8 +145,6 @@
             {
                 await Max();
             }
-
-            this.StateHasChanged();
         }
 
         private async Task ReloadChart(List<TimeTuple<int>> data)
