@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29728.190
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FpsTrainerCharts", "src\Client\FpsTrainerCharts.csproj", "{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "src\Client\BlazorApp1.csproj", "{4C52B59A-0B70-482E-9F1B-B53DBA4C1F27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFF58844-5C5A-4E93-80CF-9170B6C1AF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C52B59A-0B70-482E-9F1B-B53DBA4C1F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C52B59A-0B70-482E-9F1B-B53DBA4C1F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C52B59A-0B70-482E-9F1B-B53DBA4C1F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C52B59A-0B70-482E-9F1B-B53DBA4C1F27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {392E8168-D410-4485-9ECA-15FFE617F9F5}
+		SolutionGuid = {5E0F2A2E-40B9-4AD3-AE5D-CDE9258D4A88}
 	EndGlobalSection
 EndGlobal
