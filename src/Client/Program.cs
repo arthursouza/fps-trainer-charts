@@ -26,7 +26,6 @@ namespace BlazorApp1
             builder.Services.AddBootstrapCss();
             builder.Services.AddBlazoredLocalStorage();
             await builder.Build().RunAsync();
-            // This is a test
         }
     }
 }
